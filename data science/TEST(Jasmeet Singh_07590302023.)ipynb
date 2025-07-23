@@ -1,0 +1,323 @@
+{
+ "cells": [
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "44c79da1-16b7-4b8c-9e5c-49115c2c3443",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "question 1\n",
+    "list - it applies in code to add data in table or in another    \n",
+    "eg - to apply list we use [] to add data\n",
+    "     a : ['apple','ball']\n",
+    "tuple - tuple refers to tables row "
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "cec9274d-90bd-4511-b335-b268e0f367b2",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "question 2\n",
+    "\n",
+    "input() - we use input to enter data from user , it returns string datatype\n",
+    "\n",
+    "integer - we convert it into integer using (int(input())"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "91ccdb39-6b55-4938-966d-1ad8034a2427",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "question 3\n",
+    "\n",
+    "dictionaries - data type to store key values\n"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 9,
+   "id": "c872b778-b42e-41d5-b56a-57024d59bd56",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "1\n",
+      "2\n",
+      "3\n",
+      "4\n"
+     ]
+    }
+   ],
+   "source": [
+    "# question 4\n",
+    "\n",
+    "for i in range(1,5):\n",
+    "    print(i)\n"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "d9fae07b-fc25-4a51-b26d-7c9b9c81114f",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "question 5 \n",
+    "\n",
+    "try - we use try in that code which can cause an error\n",
+    "\n",
+    "except - this works when try  cause an error\n",
+    "\n",
+    "finally - it always works it doesn't matter if other works or not"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 11,
+   "id": "acc01767-0182-4d43-9571-2ee5c997405b",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "2.449489742783178\n"
+     ]
+    },
+    {
+     "data": {
+      "text/plain": [
+       "11"
+      ]
+     },
+     "execution_count": 11,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "# question 6\n",
+    "\n",
+    "# python modules - there are more than 6lakh modules in python which we import to perform different ccodes\n",
+    "\n",
+    "# eg - import pygame,import matplotlib,import math etc.\n",
+    "\n",
+    "# import math - in this we import full math module\n",
+    "from math import sqrt\n",
+    "print(sqrt(6))\n",
+    "# from math import sqrt - in this we import only sqrt from math module\n",
+    "import math\n",
+    "a = 5\n",
+    "b = 6\n",
+    "a+b"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "f6e4b980-3c16-4110-889a-5ef9ff2712bf",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "question 7\n",
+    "\n",
+    "OOPS\n",
+    "In python we use oops to perform pillars of OOPS\n",
+    "1:encapsulation\n",
+    "2:polymorphism\n",
+    "3:abstract\n",
+    "4:inheritence\n",
+    "5:\n",
+    "\n",
+    "classes - in which functions and classes get called\n",
+    "\n",
+    "object = we made it in classes also to define something "
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 36,
+   "id": "34e50730-5816-49e5-bc5c-6f5bf49b81b8",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "# question 8\n",
+    "\n",
+    "# list comprehension\n",
+    "\n",
+    "list comprehension refers to apply loop in list\n",
+    "\n",
+    "result = ['3']\n",
+    " for x in range(10):\n",
+    " if x % 2 == 0:\n",
+    " result.append(x * 2)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 45,
+   "id": "555efb98-c2aa-4124-942e-63f85b558ed3",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "78.5"
+      ]
+     },
+     "execution_count": 45,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "#questionn 9\n",
+    "\n",
+    "def calculate_area(r):\n",
+    "    pi = 3.14\n",
+    "    area = pi*(r*r)\n",
+    "    return area\n",
+    "    \n",
+    "calculate_area(5)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 32,
+   "id": "ee2cea57-0d2c-4bd5-be15-76c4fb286b2c",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "helloJASMEET SINGH,you are 19 years old!!\n"
+     ]
+    }
+   ],
+   "source": [
+    "#question 10\n",
+    "\n",
+    "def hello(name,age):\n",
+    "    print(f\"hello{name},you are {age} years old!!\")\n",
+    "hello('JASMEET SINGH','19')"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 40,
+   "id": "d0e3e694-f327-4bdd-b8ee-0b26c970e038",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "mango\n",
+      "banana\n",
+      "grapes\n",
+      "apple\n",
+      "papaya\n"
+     ]
+    }
+   ],
+   "source": [
+    "#question 11\n",
+    "def fruits(*args):\n",
+    "    for i in args:\n",
+    "        print (i)\n",
+    "fruits('mango','banana','grapes','apple','papaya')"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 43,
+   "id": "8372d1c1-f3ec-41e1-b3b0-9f5162e17ff0",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "F\n",
+      "C\n",
+      "A\n"
+     ]
+    }
+   ],
+   "source": [
+    "#question 12\n",
+    "\n",
+    "def grade_calculator(marks):\n",
+    "    if marks >=90:\n",
+    "        print('A')\n",
+    "    elif 90 > marks >= 80:\n",
+    "        print('B')\n",
+    "    elif 80 > marks >= 70:\n",
+    "        print('C')\n",
+    "    elif 70 > marks >= 60:\n",
+    "        print('D')\n",
+    "    elif 60 > marks >= 0:\n",
+    "        print('F')\n",
+    "\n",
+    "grade_calculator(20)\n",
+    "grade_calculator(70)\n",
+    "grade_calculator(90)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "f9fb7437-93bd-4660-9872-750f4393c8fd",
+   "metadata": {},
+   "outputs": [],
+   "source": []
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "f444a7ff-d6b4-4cfe-8e35-01e9f9c3b50b",
+   "metadata": {},
+   "outputs": [],
+   "source": []
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "023b88dd-d9f0-471c-91f5-83f790a07f9d",
+   "metadata": {},
+   "outputs": [],
+   "source": []
+  }
+ ],
+ "metadata": {
+  "kernelspec": {
+   "display_name": "Python [conda env:base] *",
+   "language": "python",
+   "name": "conda-base-py"
+  },
+  "language_info": {
+   "codemirror_mode": {
+    "name": "ipython",
+    "version": 3
+   },
+   "file_extension": ".py",
+   "mimetype": "text/x-python",
+   "name": "python",
+   "nbconvert_exporter": "python",
+   "pygments_lexer": "ipython3",
+   "version": "3.13.5"
+  }
+ },
+ "nbformat": 4,
+ "nbformat_minor": 5
+}
